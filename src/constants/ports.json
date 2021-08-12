@@ -1,0 +1,20 @@
+[
+  {
+    "address": "Itaqui Port",
+    "title": "Итакуи расположен в штате Мараньяу (Maranhao)",
+    "latitude": -2.572595,
+    "longitude": -44.364176
+  },
+  {
+    "address": "Ataru Port",
+    "title": "Бразилия, Баия, Арату",
+    "latitude": -12.793307,
+    "longitude": -38.495096
+  },
+  {
+    "address": "Santos Port",
+    "title": "Бразилия, Сан Паулу, город Сантус",
+    "latitude": -23.966465,
+    "longitude": -46.307489
+  }
+]

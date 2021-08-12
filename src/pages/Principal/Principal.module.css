@@ -1,0 +1,35 @@
+.wrapper {
+    margin: 2rem;
+    background-color: #acacac34;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+.header {
+    text-align: justify;
+    position: sticky;
+    top: 0;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 2rem;
+    padding: 1em 10%;
+    background:rgb(77, 77, 77);
+    /* background: linear-gradient(to right, #f6f1d3, #606463, #525252); */
+    height: 100px;
+    /* color: rgb(255, 255, 255); */
+    display: flex;
+    box-shadow: 0 0 10px rgba(160, 160, 160, 0.445);
+    position: -webkit-sticky;
+    /* top: 0px; */
+    z-index: 2;
+    padding-bottom: 10px;
+    background-position: 20px 10px;
+    background-repeat: no-repeat;
+  }
+
+  .Button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }

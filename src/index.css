@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Quicksand',  'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+
+.background {
+    /* background: linear-gradient( rgb(231, 218, 31), rgba(114, 114, 114, 0.075) ),  url("https://habrastorage.org/files/161/60c/b34/16160cb34a7342ae84ffa48a39b8a298.png") center center fixed; */
+    background: linear-gradient(rgba(83, 83, 83, 0.562), rgba(255, 255, 255, 0.562)), url("https://habrastorage.org/files/161/60c/b34/16160cb34a7342ae84ffa48a39b8a298.png") center center fixed;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+    background: #1e1e1f9c;
+    /* background-color: (#7064649c) */
+    height: 100vh;
+    border-radius: 10px;
+    padding: 5%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0 10%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: #ffcd17de; */
+    background: linear-gradient(0deg, rgba(204, 203, 203, 1) 0%, rgba(226, 225, 225, 1) 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(116, 116, 116, 0.5);
+}
+
+.JSONwrapper {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0 10%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+/*style {
+     font-size: 70
+
+}*/
+
+.content {
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  justify-content:space-around;
+  position: relative;
+  top: 50px;
+  left: 50px; 
+}
+
+select {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  
+}
+
+
+.buttonW {
+    width: 100px;
+    height: 30px;
+}
+
+.selectCont{
+    display: flex;
+    margin-left: 100px;
+  }
+
+  .Select {
+    direction: rtl;
+
+}
+
+.Option {
+    direction: ltr;
+    margin-bottom: 20px;
+
+}
+
+  .selectItem{
+    display: flex;
+    flex-direction: column; 
+  }
+  .selectMargin{
+    margin-bottom: 5px;
+  
+  }
+
+.header {
+    text-align: justify;
+    position: sticky;
+    top: 0;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 2rem;
+    padding: 1em 10%;
+    background:rgb(77, 77, 77);
+    /* background: linear-gradient(to right, #f6f1d3, #606463, #525252); */
+    height: 100px;
+    /* color: rgb(255, 255, 255); */
+    display: flex;
+    box-shadow: 0 0 10px rgba(160, 160, 160, 0.445);
+    position: -webkit-sticky;
+    /* top: 0px; */
+    z-index: 2;
+    padding-bottom: 10px;
+    background-position: 20px 10px;
+    background-repeat: no-repeat;
+  }
+
+
+
+.navList {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.navItem {
+    margin-right: 100px;
+    list-style-type: none;
+    position: relative;
+    color: #000;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.container-feedback {
+    display: flex;
+    align-items: center;
+}
+
+
+.loader {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border: 1.1em solid rgba(99, 98, 98, 0.753);
+    border-left: 1.1em solid #000000;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+    transition: opacity 0.3s;
+}
+
+/* .loader--hide {
+  opacity: 0;
+} */
+/*
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  z-index: 9999;
+} */
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.align-me {
+    display: flex;
+    align-items: center;
+}
+
+/*
+@font-face {
+  font-family: 'Circe';
+  src: url('./fonts/Circe-Regular.woff2') format('woff2'),
+      url('./fonts/Circe-Regular.woff') format('woff'),
+      url('./fonts/Circe-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* li:hover a {
+    text-decoration: none;
+    /* text-decoration:underline; */
+    /* color: #0088cc;
+    border-bottom: 1px dashed #0088cc;
+
+} */ 
+
+.Select {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.options {
+    float: 'right',
+   floatIndex 100,
+    noPlacemark true,
+}
+/* 
+.Nav_link:link {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-decoration: none;
+  } */
+
+  a {
+    text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный */
+     line-height: 1; 
+    color:#000000;
+    }
+    a:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 1px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #000000; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+    a:hover:after,
+    a:focus:after {
+    width: 100%;
+    }
+    a:hover{
+    color:#000000;
+    } 
+
+    .DIV.container {
+      min-height: 10em;
+      display: table-cell;
+      vertical-align: middle }
+
+      /* .checkboxes {
+        text-align:center;
+        margin: 0 20px 0;
+
+      }
+       */
+      /* .checkboxes input{
+        margin: 0 20px 0;
+      } */
+
+      /* .container {
+        min-height: 10em;
+        display: table-cell;
+        vertical-align: middle } */
+/* 
+    
+    .radiobuttons input[type='radio'] + label:not(:last-child){
+      margin-right: 60px;
+    } */
+
+    .body-text {
+      margin: 20px auto;
+    }
+    
+    .body-text__p + .body-text__p {
+      margin-top: 20px;
+    }
